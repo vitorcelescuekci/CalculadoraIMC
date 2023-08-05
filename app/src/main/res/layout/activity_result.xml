@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:text="Seu IMC é:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.08"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textSize="38sp"
+        />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18sp"
+        tools:text="Classificação: Normal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Tabela de IMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:text="Menor que 18.5    Abaixo do peso (0)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:text="Entre 18.5 e 24.9    Normal (0)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:text="Entre 25.0 e 29.9    Sobrepeso (I)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:text="Entre 30.0 e 39.9    Obesidade (II)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:text="Maior que 40.0    Obesidade grave (III)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"/>
+
+</LinearLayout>
